@@ -1,0 +1,19 @@
+/* ==========================================================================
+   #CARDS
+   ========================================================================== */
+
+.card {
+	border-width: 2px;
+	border-right: none;
+	border-left: none;
+	border-radius: 0;
+
+	&._border-bottom-color {
+		border-bottom-color: $primary-color;
+		border-bottom-width: 3px; 
+	}
+
+	.subtopic {
+		color: palette-color("grey", "dark");
+	}
+}

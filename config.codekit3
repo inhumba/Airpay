@@ -192,15 +192,18 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/src/scss/1-vendors/bootstrap/bootstrap.css": {
-		"aP": 1,
+	"/src/scss/1-vendors/bootstrap/_bootstrap.scss": {
+		"aP": 0,
 		"bl": 0,
-		"ft": 16,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/src/scss/1-vendors/bootstrap/bootstrap-min.css",
+		"oA": 1,
+		"oAP": "/src/scss/1-vendors/bootstrap/_bootstrap.css",
 		"oF": 0,
-		"oS": 3
+		"oS": 0,
+		"uL": 1
 		},
 	"/src/scss/2-tools/_tools.clearfix.scss": {
 		"aP": 0,
@@ -475,6 +478,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/src/scss/5-objects/_objects.cards.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/5-objects/_objects.cards.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/src/scss/6-components/_components.body.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -484,6 +500,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/src/scss/6-components/_components.body.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/scss/6-components/_components.cards.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/6-components/_components.cards.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

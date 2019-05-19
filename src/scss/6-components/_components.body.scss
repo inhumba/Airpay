@@ -22,15 +22,15 @@ body {
 }
 
 .site-header {
-	background-color: $header-background-color;
 	@include font-size(16);
+	background-color: $header-background-color;
+	border-bottom: 2px solid palette-color("grey", "light");
+
+	.title {
+		font-size: 2em;
+	}
 }
 
 .site-content {
 	@include font-size(16);
-}
-
-.topic {
-	font-size: 1.2em;
-	font-weight: 600;
 }

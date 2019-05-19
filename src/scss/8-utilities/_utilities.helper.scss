@@ -1,0 +1,131 @@
+/* ==========================================================================
+   #HELPER
+   ========================================================================== */
+
+/**
+ * Utilities classes are prefixed with a `u--`.
+ */
+
+// Skip link or Screen reader text or Hide only visually
+.u--vh, .u--screen-reader-text {
+	@include vh;
+}
+
+
+
+// Clearfix
+.u--cf {
+	@include cf;
+}
+
+// .is-hidden {
+// 	@include hidden;
+// }
+
+
+
+// Floating
+.u--float {
+
+	&--left {
+		float: left;
+	}
+
+	&--right {
+		float: right;
+	}
+
+	&--clear {
+		clear: both;
+	}
+}
+
+
+
+// Text alignment
+.u--text-align {
+
+	&--left {
+		text-align: left;
+	}
+
+	&--center {
+		text-align: center;
+	}
+
+	&--right {
+		text-align: right;
+	}
+}
+
+
+
+// Vertical alignment
+.u--vertical-align {
+
+	&--top {
+		vertical-align: top;
+	}
+
+	&--middle {
+		vertical-align: middle;
+	}
+
+	&--bottom {
+		vertical-align: bottom;
+	}
+}
+
+
+
+// Bare list
+.u--list--bare {
+	list-style: none;
+	margin-left: 0;
+
+	ul, ol {
+		list-style: none;
+	}
+}
+
+
+
+// Inline list 
+.u--list--inline {
+	list-style: none;
+	margin-left: 0;
+
+	li {
+		display: inline-block;
+	}
+}
+
+
+
+// Color
+.u--red-text {
+	color: palette-color("red");
+}
+
+
+
+// Display
+.u--display--table {
+	display: table;
+}
+
+.u--display--table-cell {
+	display: table-cell;
+}
+
+.u--display--block {
+	display: block;
+}
+
+.u--display--inline {
+	display: inline;
+}
+
+.u--display--inline-block {
+	display: inline-block;
+}

@@ -1,0 +1,95 @@
+//-//- Use Master Template Base
+extends master/base.pug
+
+
+//-//- Page Title
+block title
+	title Template
+
+
+//-//- Custom Meta
+block custom-meta
+	meta(name="description", content="Page description")
+
+
+//-//- Custom Style
+block custom-style
+
+
+//-//- Custom Header Script
+block custom-header-script
+
+
+//-//- Body
+block body
+	- var bodyClass= ''; // body class
+	include master/bodyclass.pug
+
+
+		//-//- Page Wrapper
+		#page.site-wrapper
+ 
+			//-//- Header
+			header#masthead.site-header
+
+				.container
+					.row
+
+						.col
+							a(href="#") arrow
+
+						.col
+							h1.title Page Title
+
+						.col
+							a(href="#") arrow
+
+
+			//-//- Main Content
+			#content.site-content
+
+
+				//-//- Primary Content
+				#primary.content-area
+					main#main.site-main
+
+						.container
+							.row
+
+								.col
+									.card
+										h2.topic Page Topic<br>Sub Topic
+
+
+							.row
+
+								.col
+									.card
+										h3 Card
+
+							
+							.row
+
+								.col
+									.card
+										h3 Card
+
+
+
+				//- Secondary Content
+				#secondary.sidebar-area
+					aside#sidebar.site-sidebar
+
+						.container
+							.row
+
+								.col
+									.card
+										a(href="#") button
+
+
+		//-//- Main Script
+		block script
+			include script/master-script.js
+
+		</body>

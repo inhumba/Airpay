@@ -1,0 +1,18 @@
+/* ==========================================================================
+   #LINKS
+   ========================================================================== */
+
+/**
+ * Set basic links styling
+ */
+
+a {
+	// border-bottom: 1px dotted palette-color("primary", "light");
+	color: $link-font-color;
+	text-decoration: none;
+
+	&:hover {
+		color: $link-font-color--hover;
+		text-decoration: none;
+	}
+}

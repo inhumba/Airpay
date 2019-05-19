@@ -1,0 +1,113 @@
+/* ==========================================================================
+   #COLOR
+   ========================================================================== */
+
+/**
+ * Global Color
+ */
+
+$primary-color: palette-color("primary");
+$global-border-color: palette-color("grey", "lighter");
+$global-border-color-darker: palette-color("grey", "light");
+$body-background-color: #f4f7fa;
+$header-background-color: #fff;
+
+
+
+/**
+ * Heading color
+ */
+
+$heading-font-color: palette-color("grey", "darker");
+
+
+
+/**
+ * Base (body) color
+ */
+
+$base-font-color: palette-color("grey", "darker");
+
+
+
+/**
+ * Link color
+ */
+
+$link-font-color: $primary-color;
+$link-font-color--hover: darken($primary-color, 7%);
+
+
+
+/**
+ * Table color
+ */
+
+$table-border-color: $global-border-color;
+$table-font-color: $base-font-color;
+$table-headings-font-color: $heading-font-color;
+
+$table-background-striped: palette-color("grey", "light");
+
+
+
+/**
+ * Form color
+ */
+
+$input-border-color: $global-border-color;
+$input-background-color: #fff;
+$input-font-color: $base-font-color;
+
+
+
+/**
+ * Placeholder color
+ */
+
+ $placeholder-font-color: #ddd;
+
+
+
+ /**
+ * Button color
+ */
+
+$button-border-color: $global-border-color;
+$button-background-color: #fff;
+$button-font-color: $base-font-color;
+
+
+
+ /**
+ * Selection background color
+ */
+
+ $selection-background-color: lighten($primary-color, 20%);
+
+
+
+/**
+ * Blockquote color
+ */
+
+$blockquote-font-color: palette-color("grey", "darker");
+$blockquote-background-color: palette-color("grey", "lighter");
+
+
+
+/**
+ * Mark color
+ */
+
+$mark-font-color: #fff;
+$mark-background-color: $primary-color;
+
+
+
+ /**
+ * Horizontal Rule color
+ */
+
+ $hr-color: $global-border-color;
+

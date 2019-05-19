@@ -66,8 +66,17 @@ block body
 							.row
 
 								.col
-									h3.topic Page Topic
-									h4.subtopic Sub Topic
+									header.card-header
+										h3.topic Page Topic
+										h4.subtopic Sub Topic
+
+									article
+										.item-list
+											label.label label left<abbr class="required" title="required">*</abbr>
+											input.field(type="text", placeholder="input field")
+										.item-list
+											label.label label left
+											input.field(type="text", placeholder="input field")
 
 					.card
 						.container

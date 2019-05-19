@@ -4,10 +4,29 @@
 
 .card {
 	margin-bottom: 20px;
-	padding: 15px 0; 
+	padding: 15px 0 0; 
 
 	.topic, .subtopic {
 		margin-bottom: 0;
 		text-align: center;
+	}
+}
+
+.card-header {
+	padding: 0 0 10px;
+}
+
+.item-list {
+	display: flex;
+	justify-content: space-between;
+	
+	.label {
+		width: 50%;
+	}
+
+	.field {
+		padding: 2px 0;
+		text-align: right;
+		width: 50%;
 	}
 }

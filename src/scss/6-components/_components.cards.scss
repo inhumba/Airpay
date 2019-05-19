@@ -17,3 +17,25 @@
 		color: palette-color("grey", "dark");
 	}
 }
+
+.card-header {
+	background-color: transparent;
+	border-bottom-color: $global-border-color;
+}
+
+.item-list {
+
+	.label {
+		line-height: 1.8;
+
+		> .required {
+			color: palette-color("red");
+		}
+	}
+
+	.field {
+		border: none;
+		line-height: 1.8;
+		text-indent: 2px;
+	}
+}

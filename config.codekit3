@@ -9,6 +9,28 @@
 	],
 "creatorBuild": "29156",
 "files": {
+	"/assets/img/arrow-left.png": {
+		"ft": 32768,
+		"iS": 3011,
+		"oA": 0,
+		"oAP": "/assets/img/arrow-left.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/arrow-right.png": {
+		"ft": 32768,
+		"iS": 3039,
+		"oA": 0,
+		"oAP": "/assets/img/arrow-right.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/favicon.png": {
 		"ft": 32768,
 		"iS": 56545,
@@ -491,6 +513,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/src/scss/5-objects/_objects.header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/5-objects/_objects.header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/scss/5-objects/_objects.sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/5-objects/_objects.sidebar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/src/scss/6-components/_components.body.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -513,6 +561,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/src/scss/6-components/_components.cards.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/scss/6-components/_components.header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/6-components/_components.header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/scss/6-components/_components.sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/6-components/_components.sidebar.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -1,0 +1,16 @@
+/* ==========================================================================
+   #SIDEBAR
+   ========================================================================== */
+
+.page-action {
+	border-bottom: none;
+
+	&._transparent {
+		background-color: transparent;
+		border-top: none;
+	}
+
+	.btn {
+		font-size: 1em
+	}
+}

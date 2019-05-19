@@ -21,16 +21,10 @@ body {
 	}
 }
 
-.site-header {
+.site-content {
 	@include font-size(16);
-	background-color: $header-background-color;
-	border-bottom: 2px solid palette-color("grey", "light");
-
-	.title {
-		font-size: 2em;
-	}
 }
 
-.site-content {
+.site-sidebar {
 	@include font-size(16);
 }

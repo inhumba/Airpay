@@ -1,0 +1,22 @@
+/* ==========================================================================
+   #HEADER
+   ========================================================================== */
+
+.site-header {
+	@include font-size(16);
+	background-color: $header-background-color;
+	border-bottom: 2px solid palette-color("grey", "light");
+
+	.title {
+		font-size: 2em;
+		text-align: center;
+	}
+
+	.btn-back {
+		@include replace-text-with-img("arrow-left.png", center center, 40px, 76px, .3);
+	}
+
+	.btn-next {
+		@include replace-text-with-img("arrow-right.png", center center, 40px, 76px, 0);
+	}
+}

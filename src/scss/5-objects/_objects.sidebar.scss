@@ -1,0 +1,27 @@
+/* ==========================================================================
+   #SIDEBAR
+   ========================================================================== */
+
+.page-action {
+	margin-bottom: 0;
+	padding-top: 5px;
+
+	&._fixed {
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+	}
+
+	.btn {
+		margin-top: 10px;
+	}
+}
+
+.action-meta {
+	display: flex;
+	justify-content: space-between;
+
+	p {
+		margin-bottom: 0;
+	}
+}

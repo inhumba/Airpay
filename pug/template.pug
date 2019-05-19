@@ -35,14 +35,14 @@ block body
 				.container
 					.row
 
-						.col
-							a(href="#") arrow
+						.col-2
+							a.btn-back(href="#") Back
 
-						.col
+						.col-8
 							h1.title Page Title
 
-						.col
-							a(href="#") arrow
+						.col-2
+							a.btn-next(href="#") Next
 
 
 			//-//- Main Content
@@ -82,7 +82,25 @@ block body
 			#secondary.sidebar-area
 				aside#sidebar.site-sidebar
 
-					.card
+					.card.page-action
+						.container
+							.row
+
+								.col
+									.action-meta
+										p text left
+										p text right
+
+									a.btn.btn-primary.btn-block(href="#") button
+
+					.card.page-action._transparent
+						.container
+							.row
+
+								.col
+									a.btn.btn-primary.btn-block(href="#") button
+
+					.card.page-action._fixed
 						.container
 							.row
 

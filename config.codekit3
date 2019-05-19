@@ -462,21 +462,31 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"/src/scss/5-objects/.keep": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/scss/5-objects/.keep",
-		"oF": 0
+	"/src/scss/5-objects/_objects.body.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/5-objects/_objects.body.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
-	"/src/scss/6-components/.keep": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/scss/6-components/.keep",
-		"oF": 0
+	"/src/scss/6-components/_components.body.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/6-components/_components.body.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"/src/scss/7-themes/.keep": {
 		"cB": 0,

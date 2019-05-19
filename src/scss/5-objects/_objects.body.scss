@@ -1,0 +1,36 @@
+/* ==========================================================================
+   #BODY
+   ========================================================================== */
+
+.site-wrapper {
+	@include cf;
+	@include push--auto;
+	height: 100vh;
+
+	&.has--overlay {
+		overflow: hidden;
+  
+		&::after {
+			position: fixed;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			z-index: z(overlay);
+		}
+	}
+}
+
+.site-header {
+	z-index: z(site-header);
+}
+
+.site-content {
+	z-index: z(site-content);
+}
+
+.sidebar-area {
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	bottom: 0;
+}

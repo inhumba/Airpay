@@ -1,0 +1,36 @@
+/* ==========================================================================
+   #BODY
+   ========================================================================== */
+
+body {
+	background-color: $body-background-color;
+}
+
+.site-wrapper {
+
+	&.has--overlay {
+
+		> *:not(.cart--bottom) {
+			filter: blur(2px);
+		}
+
+		&::after {
+			background-color: palette-color("grey", "darker");
+			opacity: .9;
+		}
+	}
+}
+
+.site-header {
+	background-color: $header-background-color;
+	@include font-size(16);
+}
+
+.site-content {
+	@include font-size(16);
+}
+
+.topic {
+	font-size: 1.2em;
+	font-weight: 600;
+}

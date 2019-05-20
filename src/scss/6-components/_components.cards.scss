@@ -24,9 +24,14 @@
 }
 
 .item-list {
+	border-bottom: 1px solid $global-border-color;
+
+	&:last-of-type {
+		border-bottom: none;
+	}
 
 	.label {
-		line-height: 1.8;
+		line-height: 1.6;
 
 		> .required {
 			color: palette-color("red");
@@ -35,7 +40,6 @@
 
 	.field {
 		border: none;
-		line-height: 1.8;
-		text-indent: 2px;
+		line-height: 1.6;
 	}
 }

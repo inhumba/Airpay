@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'cs_prakasregular';
+	src: url('#{$font-path}/CSPraKas/csprakas.woff2') format('woff2'),
+		 url('#{$font-path}/CSPraKas/csprakas.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'cs_prakasbold';
+	src: url('#{$font-path}/CSPraKas/csprakasbold.woff2') format('woff2'),
+		 url('#{$font-path}/CSPraKas/csprakasbold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

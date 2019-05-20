@@ -39,7 +39,7 @@ block body
 							a.btn-back(href="#") Back
 
 						.col-8
-							h1.title Page Title
+							h1.title Page Title ชื่อหน้า
 
 						.col-2
 							a.btn-next(href="#") Next
@@ -58,7 +58,7 @@ block body
 							.row
 
 								.col
-									h2.topic Page Topic<br>topic new line
+									h2.topic Page Topic หัวข้อหลัก<br>topic new line บรรทัดใหม่
 
 
 					.card
@@ -67,23 +67,26 @@ block body
 
 								.col
 									header.card-header
-										h3.topic Page Topic
-										h4.subtopic Sub Topic
+										h3.topic Page Topic หัวข้อหลัก
+										h4.subtopic Sub Topic หัวข้อรอง
 
 									article
 										.item-list
-											label.label label left<abbr class="required" title="required">*</abbr>
+											label.label label left ข้อความซ้าย<abbr class="required" title="required">*</abbr>
 											input.field(type="text", placeholder="input field")
 										.item-list
-											label.label label left
-											input.field(type="text", placeholder="input field")
+											label.label label left ข้อความซ้าย
+											input.field(type="text", placeholder="input field ข้อความขวา")
+										.item-list
+											label.label ข้อความซ้าย
+											input.field(type="text", value="ข้อความขวา")
 
 					.card
 						.container
 							.row
 
 								.col
-									h3 Card
+									h3 Card การ์ด
 
 
 
@@ -97,17 +100,17 @@ block body
 
 								.col
 									.action-meta
-										p text left
-										p text right
+										p text left ซ้าย
+										p text right ขวา
 
-									a.btn.btn-primary.btn-block(href="#") button
+									a.btn.btn-primary.btn-block(href="#") button ปุ่ม
 
 					.card.page-action._transparent
 						.container
 							.row
 
 								.col
-									a.btn.btn-primary.btn-block(href="#") button
+									a.btn.btn-primary.btn-block(href="#") button ยืนยัน
 
 					.card.page-action._fixed
 						.container

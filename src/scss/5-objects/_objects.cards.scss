@@ -19,13 +19,16 @@
 .item-list {
 	display: flex;
 	justify-content: space-between;
+	padding: 15px 0; 
 	
 	.label {
+		margin-bottom: 0;
 		width: 50%;
 	}
 
 	.field {
-		padding: 2px 0;
+		margin-bottom: 0;
+		padding: 0;
 		text-align: right;
 		width: 50%;
 	}

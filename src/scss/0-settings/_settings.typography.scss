@@ -16,6 +16,8 @@ $fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Ari
 
 $prompt: "Prompt", $fallback;
 $sarabun: "Sarabun", $fallback;
+$prakasregular: "cs_prakasregular", $fallback;
+$prakasbold: "cs_prakasbold", $fallback;
 
 
 
@@ -31,7 +33,7 @@ $global-letter-spacing:  0;
  * Heading fonts style
  */
 
-$heading-font-weight:  500;
+$heading-font-weight:  400;
 $heading-font-lh: 1.2;
 
 

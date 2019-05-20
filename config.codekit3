@@ -9,6 +9,38 @@
 	],
 "creatorBuild": "29156",
 "files": {
+	"/assets/fonts/CSPraKas/csprakas.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/CSPraKas/csprakas.woff",
+		"oF": 0
+		},
+	"/assets/fonts/CSPraKas/csprakas.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/CSPraKas/csprakas.woff2",
+		"oF": 0
+		},
+	"/assets/fonts/CSPraKas/csprakasbold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/CSPraKas/csprakasbold.woff",
+		"oF": 0
+		},
+	"/assets/fonts/CSPraKas/csprakasbold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/CSPraKas/csprakasbold.woff2",
+		"oF": 0
+		},
 	"/assets/img/arrow-left.png": {
 		"ft": 32768,
 		"iS": 3011,
@@ -226,6 +258,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/src/scss/1-vendors/font/font.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/src/scss/1-vendors/font/font-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/src/scss/2-tools/_tools.clearfix.scss": {
 		"aP": 0,

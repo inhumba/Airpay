@@ -9,6 +9,6 @@
 @each $heading in h1, h2, h3, h4, h5, h6 {
 	#{$heading} {
 		font-size: heading-size(#{$heading});
-		@include font($prompt, false,  $heading-font-weight, $heading-font-color, $heading-font-lh);
+		@include font($prakasbold, false,  $heading-font-weight, $heading-font-color, $heading-font-lh);
 	}
 }

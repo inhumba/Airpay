@@ -16,6 +16,6 @@ html {
 }
 
 body {
-	@include font($sarabun, $body-font-size,  $base-font-weight, $base-font-color, $base-font-lh);
+	@include font($prakasbold, $body-font-size,  $base-font-weight, $base-font-color, $base-font-lh);
 	letter-spacing: $global-letter-spacing;
 }

@@ -13,8 +13,13 @@
 		border-bottom-width: 3px; 
 	}
 
+	.topic {
+		font-size: 1em;
+	}
+
 	.subtopic {
 		color: palette-color("grey", "dark");
+		font-size: .8em;
 	}
 }
 
@@ -23,8 +28,19 @@
 	border-bottom-color: $global-border-color;
 }
 
-.item-list {
+.form-list {
 	border-bottom: 1px solid $global-border-color;
+
+	&:after {
+		border-bottom: 1px solid $global-border-color;
+		content: "";
+		display: block;
+		height: 1px;
+		width: 20px;
+		position: absolute;
+		right: -20px;
+		bottom: -1px;
+	}
 
 	&:last-of-type {
 		border-bottom: none;
@@ -32,6 +48,7 @@
 
 	.label {
 		line-height: 1.6;
+		font-size: 1em;
 
 		> .required {
 			color: palette-color("red");
@@ -40,6 +57,32 @@
 
 	.field {
 		border: none;
+		color: palette-color("grey", "dark");
 		line-height: 1.6;
+		font-size: 1em;
+
+		&._icon {
+			background-image: url(#{$img-path}/arrow-select.png);
+			background-position: right center;
+			background-repeat: no-repeat;
+			background-size: 10px 19px;
+			padding-right: 25px;
+		}
+	}
+}
+
+.text-list {
+
+	p {
+
+		small {
+			color: palette-color("grey", "dark");
+			line-height: 1;
+			font-size: .8em;
+		}
+
+		+ p {
+			color: palette-color("grey", "dark");
+		}
 	}
 }

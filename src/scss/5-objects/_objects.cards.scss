@@ -30,6 +30,15 @@
 	padding: 15px 0; 
 	position: relative;
 
+	&._justify-content-start {
+		justify-content: flex-start;
+
+		.form-check-inline {
+			// display: block;
+			flex-grow: 2;
+		}
+	}
+
 	._flex-grow-2 {
 		flex-grow: 2;
 	}

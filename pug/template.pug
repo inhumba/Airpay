@@ -83,28 +83,26 @@ block body
 											input.field._icon(type="text", placeholder="เลือก")
 										.form-list
 											label.label select
-											select.selectpicker.field._icon(title="เลือก")
+											select.selectpicker.field._icon(title="เลือก", multiple)
 												option ไก่หมูหมึกกุ้งทั้งขี้หมู
-												option 2
-												option 3
+												option บ้าบอสนูปปี้ไก่
+												option Dog Cat Elephant
 										.form-list
 											label.label ข้อความซ้าย
 											input.field(type="text", value="ใส่ข้อความขวา")
-										.form-list
-											<form role="form">
-												<div class="form-check abc-radio abc-radio-primary form-check-inline">
-													<input class="form-check-input" type="radio" name="radio1" id="radio1" value="option1" checked>
-													<label class="form-check-label" for="radio1">One</label>
-												</div>
-												<div class="form-check abc-radio abc-radio-primary form-check-inline">
-													<input class="form-check-input" type="radio" name="radio1" id="radio2" value="option2">
-													<label class="form-check-label" for="radio2">Two</label>
-												</div>
-											</form>
+										.form-list._justify-content-start
+											<div class="form-check abc-radio abc-radio-primary form-check-inline">
+												<input class="form-check-input" type="radio" name="radio1" id="radio1" value="option1" checked>
+												<label class="form-check-label" for="radio1">หมูหมึกกุ้งที่ One</label>
+											</div>
+											<div class="form-check abc-radio abc-radio-primary form-check-inline">
+												<input class="form-check-input" type="radio" name="radio1" id="radio2" value="option2">
+												<label class="form-check-label" for="radio2">หมูหมึกกุ้งที่ Two</label>
+											</div>
 										.form-list
 											.form-check.abc-checkbox.abc-checkbox-primary.abc-checkbox-circle._flex-grow-2
 												<input class="form-check-input" id="checkbox1" type="checkbox">
-												<label class="form-check-label" for="checkbox1">Check me out</label>
+												<label class="form-check-label" for="checkbox1">Check me out เช็คบ๊อก หมูหมึกกุ้งที่บ้าน</label>
 
 					.card._pb-10
 						.container
@@ -114,7 +112,7 @@ block body
 
 									article
 										.text-list
-											p ข้อความซ้าย <a class="btn" href="#" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</a>
+											p ข้อความซ้าย <button class="btn" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</button>
 											p ข้อความขวา
 										.text-list
 											p ข้อความซ้ายข้อความซ้าย ข้อความซ้าย ข้อความซ้าย ข้อความซ้ายข้อความซ้าย

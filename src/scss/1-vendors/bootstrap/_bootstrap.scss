@@ -2948,18 +2948,25 @@ fieldset:disabled a.btn {
 }
 
 .btn-link {
+  background-color: #488cf1;
   font-weight: 400;
-  color: #007bff;
+  color: #fff;
   text-decoration: none;
+  padding: 2px 0 0;
+  border: none;
+  text-align: center;
+  height: 22px;
+  width: 22px;
 }
 
 .btn-link:hover {
-  color: #0056b3;
-  text-decoration: underline;
+  color: #fff;
+  text-decoration: none;
 }
 
 .btn-link:focus, .btn-link.focus {
-  text-decoration: underline;
+  color: #fff;
+  text-decoration: none;
   box-shadow: none;
 }
 

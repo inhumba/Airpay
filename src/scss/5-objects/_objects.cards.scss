@@ -54,6 +54,15 @@
 		text-align: right;
 		width: 50%;
 	}
+
+	p {
+		margin-bottom: 0;
+	}
+
+	.delete {
+		display: inline;
+		vertical-align: middle;
+	}
 }
 
 .text-list {

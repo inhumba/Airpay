@@ -1,0 +1,21 @@
+/* ==========================================================================
+   #FONT AWESOME
+   ========================================================================== */
+
+.delete {
+	@extend %fa-icon;
+	@extend .fas;
+
+	&:before {
+		content: fa-content($fa-var-times-circle);
+	}
+}
+
+.question {
+	@extend %fa-icon;
+	@extend .fas;
+
+	&:before {
+		content: fa-content($fa-var-question);
+	}
+}

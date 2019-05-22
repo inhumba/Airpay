@@ -41,6 +41,90 @@
 		"oAP": "/assets/fonts/CSPraKas/csprakasbold.woff2",
 		"oF": 0
 		},
+	"/assets/fonts/fontawesome/fa-regular-400.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/fontawesome/fa-regular-400.eot",
+		"oF": 0
+		},
+	"/assets/fonts/fontawesome/fa-regular-400.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/fontawesome/fa-regular-400.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/fonts/fontawesome/fa-regular-400.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/fontawesome/fa-regular-400.ttf",
+		"oF": 0
+		},
+	"/assets/fonts/fontawesome/fa-regular-400.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/fontawesome/fa-regular-400.woff",
+		"oF": 0
+		},
+	"/assets/fonts/fontawesome/fa-regular-400.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/fontawesome/fa-regular-400.woff2",
+		"oF": 0
+		},
+	"/assets/fonts/fontawesome/fa-solid-900.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/fontawesome/fa-solid-900.eot",
+		"oF": 0
+		},
+	"/assets/fonts/fontawesome/fa-solid-900.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/fontawesome/fa-solid-900.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/fonts/fontawesome/fa-solid-900.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/fontawesome/fa-solid-900.ttf",
+		"oF": 0
+		},
+	"/assets/fonts/fontawesome/fa-solid-900.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/fontawesome/fa-solid-900.woff",
+		"oF": 0
+		},
+	"/assets/fonts/fontawesome/fa-solid-900.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/fonts/fontawesome/fa-solid-900.woff2",
+		"oF": 0
+		},
 	"/assets/img/arrow-left.png": {
 		"ft": 32768,
 		"iS": 3011,
@@ -114,6 +198,25 @@
 		"oAP": "/assets/style/stylesheet.css.map",
 		"oF": 0
 		},
+	"/assets/vendors/bootstrap/bootstrap-select.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/bootstrap-select.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/assets/vendors/bootstrap/bootstrap-select.min.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/vendors/bootstrap/bootstrap-select.min.js.map",
+		"oF": 0
+		},
 	"/assets/vendors/bootstrap/bootstrap.min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -140,6 +243,17 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/vendors/jquery/jquery.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/assets/vendors/popper/popper.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/vendors/popper/popper.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -215,7 +329,7 @@
 		"oA": 0,
 		"oAP": "/assets/script/main.min.js",
 		"oF": 2,
-		"sC": 3,
+		"sC": 1,
 		"tS": 0
 		},
 	"/src/scss/0-settings/_settings.color.scss": {
@@ -253,6 +367,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/src/scss/0-settings/_settings.typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/scss/1-vendors/bootstrap/_bootstrap-checkbox.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/1-vendors/bootstrap/_bootstrap-checkbox.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/src/scss/1-vendors/bootstrap/_bootstrap-select.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/src/scss/1-vendors/bootstrap/_bootstrap-select.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

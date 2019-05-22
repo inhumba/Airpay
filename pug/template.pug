@@ -83,14 +83,31 @@ block body
 											input.field._icon(type="text", placeholder="เลือก")
 										.form-list
 											label.label select
-											select.field._icon(placeholder="เลือก")
-												option
-												option 1
+											select.selectpicker.field._icon(title="เลือก")
+												option ไก่หมูหมึกกุ้งทั้งขี้หมู
 												option 2
 												option 3
 										.form-list
 											label.label ข้อความซ้าย
 											input.field(type="text", value="ใส่ข้อความขวา")
+										.form-list
+											<form role="form">
+												<div class="form-check abc-radio abc-radio-primary form-check-inline">
+													<input class="form-check-input" type="radio" name="radio1" id="radio1" value="option1" checked>
+													<label class="form-check-label" for="radio1">One</label>
+												</div>
+												<div class="form-check abc-radio abc-radio-primary form-check-inline">
+													<input class="form-check-input" type="radio" name="radio1" id="radio2" value="option2">
+													<label class="form-check-label" for="radio2">Two</label>
+												</div>
+											</form>
+										.form-list
+											<form role="form">
+												<div class="form-check abc-checkbox abc-checkbox-primary .abc-checkbox-circle">
+													<input class="form-check-input" id="checkbox1" type="checkbox">
+													<label class="form-check-label" for="checkbox1">Check me out</label>
+												</div>
+											</form>
 
 					.card._pb-10
 						.container
@@ -100,7 +117,7 @@ block body
 
 									article
 										.text-list
-											p ข้อความซ้าย
+											p ข้อความซ้าย <a class="btn" href="#" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</a>
 											p ข้อความขวา
 										.text-list
 											p ข้อความซ้ายข้อความซ้าย ข้อความซ้าย ข้อความซ้าย ข้อความซ้ายข้อความซ้าย

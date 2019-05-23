@@ -1,0 +1,181 @@
+//-//- Use Master Template Base
+extends master/base.pug
+
+
+//-//- Page Title
+block title
+	title Step 4
+
+
+//-//- Custom Meta
+block custom-meta
+	meta(name="description", content="Step 4")
+
+
+//-//- Custom Style
+block custom-style
+
+
+//-//- Custom Header Script
+block custom-header-script
+
+
+//-//- Body
+block body
+	- var bodyClass= 'step-4'; // body class
+	include master/bodyclass.pug
+
+
+		//-//- Page Wrapper
+		#page.site-wrapper
+ 
+			//-//- Header
+			header#masthead.site-header
+
+				.container
+					.row.align-items-center
+
+						.col-1
+							a.btn-back(href="#") Back
+
+						.col-10
+							h1.title ซื้อประกันภัยการเดินทางต่างประเทศ
+
+						.col-1
+							a.btn-next(href="#") Next
+
+
+			//-//- Main Content
+			#content.site-content
+
+
+				//-//- Primary Content
+				#primary.content-area
+					main#main.site-main
+
+					.card._border-bottom-color
+						.container
+							.row
+
+								.col
+									header.card-header
+										h2.topic STEP 4<br>สรุปข้อมูลการเอาประกันภัย
+
+					.card
+						.container
+							.row
+
+								.col
+
+									article
+										.text-list
+											p แผนประกันภัยของท่าน
+											p Backpack 1
+										.text-list
+											p ประเภทการเดินทาง
+											p รายเที่ยว
+										.text-list
+											p ออกจากประเทศ
+											p Thailand
+										.text-list
+											p ไปยังประเทศ
+											p Schengen
+										.text-list
+											p วันที่ออกจากประเทศไทย
+											p 18/03/19
+										.text-list
+											p วันที่เดินทางกลับถึงประเทศไทย
+											p 21/03/19
+										.text-list
+											p จำนวนวันเดินทาง
+											p 4 วัน
+										.text-list
+											p จำนวนผู้เดินทาง
+											p 2 ท่าน
+
+										hr
+
+										.text-list
+											p ราคาเบี้ยประกันภัย<small>ราคาเบี้ยประกันภัยรวมภาษีและอากรแสตมป์แล้ว</small>
+											p <span class="u--red-text">195</span> บาท
+
+										hr
+
+										.text-list
+											p ชื่อผู้เอาประกัน
+											p นายสมชาย ชาติทหาร
+										.text-list
+											p เบอร์โทรศัพท์
+											p 02 345 6789
+										.text-list
+											p E-Mail
+											p test@test.com
+										.text-list
+											p ที่อยู่ในการจัดส่งกรมธรรม์
+											p 49 ถนนรัชดาภิเษก แขวงดินแดง เขตดินแดง กรุงเทพฯ 10400
+
+										hr
+
+										.text-list
+											p ผู้ร่วมเดินทาง 1
+											p นายสมหมาย ชาติทหาร
+										.text-list
+											p เบอร์โทรศัพท์
+											p 02 345 6789
+										.text-list
+											p E-Mail
+											p test@test.com
+										.text-list
+											p ที่อยู่ในการจัดส่งกรมธรรม์
+											p 49 ถนนรัชดาภิเษก แขวงดินแดง เขตดินแดง กรุงเทพฯ 10400
+
+										hr
+
+										.form-list._full-border._ex
+											.form-check.abc-checkbox.abc-checkbox-primary.abc-checkbox-circle._flex-grow-2
+												<input class="form-check-input" id="checkbox-accept" type="checkbox">
+												<label class="form-check-label" id="label-checkbox-accept" for="checkbox-accept">ยอมรับเงื่อนไขการซื้อประกันภัยการเดินทาง<br>ต่างประเทศผ่านเว็บไซต์ Tipinsure</label>
+
+										.text-list._ex
+											p ราคา
+											p <span class="u--black-text">195 บาท</span>
+
+
+
+			//- Secondary Content
+			#secondary.sidebar-area
+				aside#sidebar.site-sidebar
+
+					.card.page-action
+						.container
+							.row
+
+								.col
+									a.btn.btn-primary.btn-block(href="#") ชำระเงิน
+
+
+			//- Modal
+			aside
+				#modal.modal.fade(tabindex="-1", role="dialog", aria-hidden="true")
+					.modal-dialog.modal-dialog-centered(role="document")
+						.modal-content
+							.modal-header
+								h5.modal-title เงื่อนไขการรับ<br>ประกันการเดินทาง
+							.modal-body
+								ol
+									li แผนรับประกันสำหรับประกันเดินทาง อายุ 1 - 85 ปี
+									li ประกันเดินทางแผนรายปี เดินทางไม่จำกัดจำนวนครั้งต่อปี คุ้มครองไม่เกิน 180 วันต่อการเดินทางในแต่ละครั้ง
+									li ประกันเดินทางแผนครอบครัวสำหรับผู้เอาประกันภัย และคู่สมรสอายุไม่เกิน 75 ปี
+
+								p ฟรี ! คุ้มครองบุตร 2 คน อายุ 1-21 ปี ในวงเงินจำกัดความรับผิด 50% ของความคุ้มครองการเสียชีวิตจากอุบัติเหตุ ส่วนความคุ้มครองข้ออื่นๆได้รับผลประโยชน์ ตามแผนที่ผู้เอาประกันภัยเลือกไว้
+								
+							.modal-footer._line
+								<button type="button" class="btn btn-default" data-dismiss="modal">ยกเลิก</button>
+								<button type="button" class="btn btn-primary">ยอมรับ</button>
+
+
+		//-//- Main Script
+		block script
+			include script/master-script.js
+
+		</body>

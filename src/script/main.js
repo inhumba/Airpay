@@ -5,7 +5,11 @@ $(function () {
 
 	$('.datepicker').datepicker({
 		autoclose: true,
-		format: 'dd/mm/yyyy',
+		format: 'dd/mm/yy',
 		startDate: '1d'
+	});
+
+	$('#label-checkbox-accept').on('click', function() {
+		$('#modal').modal('show');
 	});
 });

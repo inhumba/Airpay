@@ -42,6 +42,19 @@
 		bottom: -1px;
 	}
 
+	&._full-border {
+		&:before {
+			border-bottom: 1px solid $global-border-color;
+			content: "";
+			display: block;
+			height: 1px;
+			width: 20px;
+			position: absolute;
+			left: -15px;
+			bottom: -1px;
+		}
+	}
+
 	&:last-of-type {
 		border-bottom: none;
 	}

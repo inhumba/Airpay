@@ -1,0 +1,31 @@
+/* ==========================================================================
+   #AIRPAY
+   ========================================================================== */
+
+.step-1 .form-list .label {
+	min-width: 220px;
+}
+
+.step-4 .text-list p:first-of-type {
+	min-width: 170px;
+}
+
+.step-4 {
+
+	.form-check {
+
+		label {
+			line-height: 1.2;
+			margin: 5px 0 10px;
+		}
+	}
+
+	.abc-checkbox label::before {
+		top: 8px;
+	}
+
+	.abc-checkbox label::after {
+		top: 12px;
+	}
+}
+

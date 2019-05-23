@@ -5,6 +5,7 @@ $(function () {
 
 	$('.datepicker').datepicker({
 		autoclose: true,
+		disableTouchKeyboard: true,
 		format: 'dd/mm/yy',
 		startDate: '1d'
 	});

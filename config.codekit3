@@ -286,7 +286,7 @@
 		"ft": 512,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/pug/master/base.html",
+		"oAP": "/base.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -296,7 +296,7 @@
 		"ft": 512,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/pug/master/bodyclass.html",
+		"oAP": "/bodyclass.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -332,6 +332,16 @@
 		"oF": 1,
 		"sC": 3,
 		"tS": 0
+		},
+	"/pug/step1.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/step1.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"/pug/template.pug": {
 		"cB": 0,
@@ -3112,7 +3122,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"compileDebug": 1,
 		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,

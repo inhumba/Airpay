@@ -1,0 +1,138 @@
+//-//- Use Master Template Base
+extends master/base.pug
+
+
+//-//- Page Title
+block title
+	title Step 1
+
+
+//-//- Custom Meta
+block custom-meta
+	meta(name="description", content="Step 1")
+
+
+//-//- Custom Style
+block custom-style
+
+
+//-//- Custom Header Script
+block custom-header-script
+
+
+//-//- Body
+block body
+	- var bodyClass= 'step-1'; // body class
+	include master/bodyclass.pug
+
+
+		//-//- Page Wrapper
+		#page.site-wrapper
+ 
+			//-//- Header
+			header#masthead.site-header
+
+				.container
+					.row.align-items-center
+
+						.col-1
+							a.btn-back(href="#") Back
+
+						.col-10
+							h1.title ซื้อประกันภัยการเดินทางต่างประเทศ
+
+						.col-1
+							a.btn-next(href="#") Next
+
+
+			//-//- Main Content
+			#content.site-content
+
+
+				//-//- Primary Content
+				#primary.content-area
+					main#main.site-main
+
+					.card._border-bottom-color
+						.container
+							.row
+
+								.col
+									header.card-header
+										h2.topic STEP 1<br>เลือกแผนประกัน
+
+
+					.card
+						.container
+							.row
+
+								.col
+									header.card-header
+										h3.topic จุดมุ่งหมายปลายทางของคุณ
+										h4.subtopic (เลือกได้สูงสุด 3 ประเทศ)
+										h4.subtopic: span.u--red-text กรณียื่นขอ Schengen Visa<br>กรุณาเลือก : Schengen
+
+									article
+										.form-list
+											label.label กรุณาเลือกจุดหมายปลายทาง
+											select.selectpicker.field._icon(title="เลือก", multiple)
+												<option>ญี่ปุ่น</option>
+												<option>เกาหลี</option>
+												<option>สิงคโปร์</option>
+												<option>ฮ่องกง</option>
+												<option>จีน</option>
+												<option>United Kingdom</option>
+												<option>Germany</option>
+												<option>France</option>
+												<option>United States</option>
+												<option>Australia</option>
+										.form-list
+											p ญี่ปุ่น, France
+											p: a(href="#"): span.delete
+
+					.card._pt-0
+						.container
+							.row
+
+								.col
+
+									article
+										.form-list._justify-content-start
+											<div class="form-check abc-radio abc-radio-primary form-check-inline">
+												<input class="form-check-input" type="radio" name="travel-type" id="individual" value="individual" checked>
+												<label class="form-check-label" for="individual">เดินทางรายบุคคล</label>
+											</div>
+											<div class="form-check abc-radio abc-radio-primary form-check-inline">
+												<input class="form-check-input" type="radio" name="travel-type" id="family" value="family">
+												<label class="form-check-label" for="family">เดินทางพร้อมครอบครัว</label>
+											</div>
+										.form-list
+											label.label วันที่ออกจากประเทศไทย<abbr class="required" title="required">*</abbr>
+											input.field._icon.datepicker(type="text", placeholder="เลือก")
+										.form-list
+											label.label วันที่เดินทางกลับถึงประเทศไทย<abbr class="required" title="required">*</abbr>
+											input.field._icon.datepicker(type="text", placeholder="เลือก")
+										.form-list
+											.form-check.abc-checkbox.abc-checkbox-primary.abc-checkbox-circle._flex-grow-2
+												<input class="form-check-input" id="checkbox-yearly" type="checkbox">
+												<label class="form-check-label" for="checkbox-yearly">เดินทางรายปี <button class="btn-link question" data-toggle="tooltip" data-placement="top" title="เดินทางรายปี"></button></label>
+
+
+
+			//- Secondary Content
+			#secondary.sidebar-area
+				aside#sidebar.site-sidebar
+
+					.card.page-action._transparent
+						.container
+							.row
+
+								.col
+									a.btn.btn-primary.btn-block(href="#") ยืนยัน
+
+
+		//-//- Main Script
+		block script
+			include script/master-script.js
+
+		</body>

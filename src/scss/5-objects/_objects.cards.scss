@@ -18,6 +18,10 @@
 	&._pb-10 {
 		padding-bottom: 10px;
 	}
+
+	&._pt-0 {
+		padding-top: 0;
+	}
 }
 
 .card-header {
@@ -46,6 +50,10 @@
 	.label {
 		margin-bottom: 0;
 		width: 50%;
+
+		.step-1 & {
+			min-width: 220px;
+		}
 	}
 
 	.field {
@@ -63,6 +71,10 @@
 		display: inline;
 		vertical-align: middle;
 	}
+}
+
+.btn-link.question {
+	margin-top: -3px;
 }
 
 .text-list {

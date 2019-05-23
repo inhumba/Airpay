@@ -27,7 +27,7 @@
  */
 
 table {
-	border: 1px solid $table-border-color;
+	// border: 1px solid $table-border-color;
 	border-collapse: collapse;
 	border-spacing: 0;
 	font-size: 1em;
@@ -44,14 +44,15 @@ table {
 
 th,
 td {
-	border: 1px solid $table-border-color;
-	padding: spacing--rem(s);
+	// border: 1px solid $table-border-color;
+	padding: 5px 10px;
 	vertical-align: top;
 }
 
 th {
+	border-bottom: 2px solid $primary-color !important;
 	font-weight: $table-font-weight--bold;
-	text-align: left;
+	// text-align: left;
 }
 
 thead {

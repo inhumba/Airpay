@@ -6,19 +6,6 @@
 	@include cf;
 	@include push--auto;
 	height: 100vh;
-
-	&.has--overlay {
-		overflow: hidden;
-  
-		&::after {
-			position: fixed;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			z-index: z(overlay);
-		}
-	}
 }
 
 .site-header {

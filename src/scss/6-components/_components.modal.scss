@@ -1,0 +1,55 @@
+/* ==========================================================================
+   #MODAL
+   ========================================================================== */
+
+.modal-title {
+	font-size: 1.2em;
+}
+
+.modal-body {
+
+	p, li {
+		font-size: .8em;
+		line-height: 1.2;
+	}
+}
+
+.modal-footer {
+
+	&._line {
+
+		&:after {
+			border-left: 1px solid #c7c7c7;
+			content: "";
+			display: block;
+			height: 100%;
+			width: 1px;
+			position: absolute;
+			top: 0;
+			left: 50%;
+		}
+	}
+
+	.btn {
+		border: none;
+		font-size: 1.15em;
+	}
+
+	.btn-default {
+		color: #4a4a4a;
+	}
+
+	.btn-primary {
+		background-color: transparent;
+		color: $primary-color;
+
+		&:hover, &:focu {
+			box-shadow: none;
+		}
+
+		&:not(:disabled):not(.disabled):active, &:not(:disabled):not(.disabled).active {
+			background-color: transparent;
+			color: $primary-color;
+		}
+	}
+}

@@ -118,7 +118,7 @@ block body
 
 									article
 										.text-list
-											p ข้อความซ้าย <button class="btn-link question" data-toggle="tooltip" data-placement="top" title="Tooltip on top"></button>
+											p ข้อความซ้าย <button type="button" class="btn-link question" data-toggle="modal" data-target="#modal"></button>
 											p ข้อความขวา
 										.text-list
 											p ข้อความซ้ายข้อความซ้าย ข้อความซ้าย ข้อความซ้าย ข้อความซ้ายข้อความซ้าย
@@ -141,9 +141,6 @@ block body
 										.text-list
 											p ข้อความซ้าย
 											p ข้อความขวาข้อความขวา ข้อความขวา ข้อความขวา ข้อความขวาข้อความขวา
-
-
-
 
 
 			//- Secondary Content
@@ -174,6 +171,26 @@ block body
 
 								.col
 									a.btn.btn-primary.btn-block(href="#") button
+
+
+
+			//- Modal
+			aside
+				#modal.modal.fade(tabindex="-1", role="dialog", aria-hidden="true")
+					.modal-dialog.modal-dialog-centered(role="document")
+						.modal-content
+							.modal-header
+								h5.modal-title Modal title หัวข้อ
+							.modal-body
+								p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ab nostrum in fugiat, labore repellat impedit magnam natus ipsa minus dignissimos accusamus ex animi aliquam velit quae! Excepturi, reprehenderit, perspiciatis.
+								ol
+									li ข้อความขวาข้อความขวา ข้อความขวา ข้อความขวา ข้อความขวาข้อความขวา
+									li ข้อความขวาข้อความขวา ข้อความขวา ข้อความขวา ข้อความขวาข้อความขวา
+									li ข้อความขวาข้อความขวา ข้อความขวา ข้อความขวา ข้อความขวาข้อความขวา
+								p ข้อความขวาข้อความขวา ข้อความขวา ข้อความขวา ข้อความขวาข้อความขวา
+							.modal-footer._line
+								<button type="button" class="btn btn-default" data-dismiss="modal">ยกเลิก</button>
+								<button type="button" class="btn btn-primary">ยอมรับ</button>
 
 
 		//-//- Main Script

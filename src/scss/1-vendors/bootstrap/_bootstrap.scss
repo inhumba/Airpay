@@ -5747,7 +5747,7 @@ a.close.disabled {
 .modal-dialog {
   position: relative;
   width: auto;
-  margin: 0.5rem;
+  margin: 2rem;
   pointer-events: none;
 }
 
@@ -5831,8 +5831,8 @@ a.close.disabled {
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  // border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
   outline: 0;
 }
 
@@ -5860,11 +5860,11 @@ a.close.disabled {
   -ms-flex-align: start;
   align-items: flex-start;
   -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 1rem 1rem;
-  border-bottom: 1px solid #dee2e6;
-  border-top-left-radius: 0.3rem;
-  border-top-right-radius: 0.3rem;
+  justify-content: center;
+  padding: 30px 10px 15px;
+  // border-bottom: 1px solid #dee2e6;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .modal-header .close {
@@ -5881,7 +5881,7 @@ a.close.disabled {
   position: relative;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1rem;
+  padding: 0 30px 20px;
 }
 
 .modal-footer {
@@ -5890,11 +5890,11 @@ a.close.disabled {
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-pack: end;
-  justify-content: flex-end;
-  padding: 1rem;
-  border-top: 1px solid #dee2e6;
-  border-bottom-right-radius: 0.3rem;
-  border-bottom-left-radius: 0.3rem;
+  justify-content: center;
+  padding: 0;
+  border-top: 1px solid #c7c7c7;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .modal-footer > :not(:first-child) {

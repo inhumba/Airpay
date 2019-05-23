@@ -8,6 +8,4 @@ $(function () {
 		format: 'dd/mm/yyyy',
 		startDate: '1d'
 	});
-
-	$('[data-toggle="tooltip"]').tooltip();
 });

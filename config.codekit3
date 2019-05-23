@@ -343,6 +343,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/pug/step3.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/step3.html",
+		"oF": 0,
+		"oS": 0
+		},
 	"/pug/step4.pug": {
 		"cB": 0,
 		"cOD": 1,

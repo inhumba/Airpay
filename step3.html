@@ -43,60 +43,345 @@
             <div class="row">
               <div class="col">
                 <header class="card-header">
-                  <h3 class="topic">จุดมุ่งหมายปลายทางของคุณ</h3>
-                  <h4 class="subtopic">(เลือกได้สูงสุด 3 ประเทศ)</h4>
-                  <h4 class="subtopic"><span class="u--red-text">กรณียื่นขอ Schengen Visa<br>กรุณาเลือก : Schengen</span></h4>
+                  <h3 class="topic">ข้อมูลผู้เดินทาง</h3>
+                  <h4 class="subtopic">*กรุณาระบุชื่อ นามสกุลเป็นภาษาอังกฤษ</h4>
                 </header>
                 <article>
                   <div class="form-list">
-                    <label class="label">กรุณาเลือกจุดหมายปลายทาง</label>
-                    <select class="selectpicker field _icon" title="เลือก" multiple><option>ญี่ปุ่น</option>
-<option>เกาหลี</option>
-<option>สิงคโปร์</option>
-<option>ฮ่องกง</option>
-<option>จีน</option>
-<option>United Kingdom</option>
-<option>Germany</option>
-<option>France</option>
-<option>United States</option>
-<option>Australia</option>
+                    <label class="label">คำนำหน้า</label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>นาย</option>
+<option>นาง</option>
+<option>นางสาว</option>
                     </select>
                   </div>
                   <div class="form-list">
-                    <p>ญี่ปุ่น, France</p>
-                    <p><a href="#"><span class="delete"></span></a></p>
+                    <label class="label">ชื่อภาษาอังกฤษ<abbr class="required" title="required">*</abbr></label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">นามสกุลภาษาอังกฤษ<abbr class="required" title="required">*</abbr></label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list _justify-content-start"><div class="form-check abc-radio abc-radio-primary form-check-inline">
+<input class="form-check-input" type="radio" name="document-type" id="id" value="id" checked>
+<label class="form-check-label" for="id">บัตรประจำตัวประชาชน</label>
+</div>
+<div class="form-check abc-radio abc-radio-primary form-check-inline">
+<input class="form-check-input" type="radio" name="document-type" id="passport" value="passport">
+<label class="form-check-label" for="passport">หนังสือเดินทาง</label>
+</div>
+                  </div>
+                  <div class="form-list">
+                    <label class="label">เลขบัตรประจำตัวประชาชน<abbr class="required" title="required">*</abbr></label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">วัน เดือน ปี เกิด</label>
+                    <input class="field _icon datepicker" type="text" placeholder="เลือก">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">เบอร์โทรศัพท์</label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">อีเมล</label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
                   </div>
                 </article>
               </div>
             </div>
           </div>
         </div>
-        <div class="card _pt-0">
+        <div class="card">
           <div class="container">
             <div class="row">
               <div class="col">
+                <header class="card-header">
+                  <h3 class="topic">ที่อยู่</h3>
+                  <h4 class="subtopic">*กรุณาระบุเป็นภาษาอังกฤษเท่านั้น</h4>
+                </header>
                 <article>
+                  <div class="form-list">
+                    <label class="label">บ้านเลขที่<abbr class="required" title="required">*</abbr></label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">หมู่</label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">หมู่บ้าน</label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">ซอย</label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">ถนน<abbr class="required" title="required">*</abbr></label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">จังหวัด<abbr class="required" title="required">*</abbr></label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>1</option>
+<option>2</option>
+<option>3</option>
+                    </select>
+                  </div>
+                  <div class="form-list">
+                    <label class="label">ตำบล/แขวง<abbr class="required" title="required">*</abbr></label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>1</option>
+<option>2</option>
+<option>3</option>
+                    </select>
+                  </div>
+                  <div class="form-list">
+                    <label class="label">อำเภอ/เขต<abbr class="required" title="required">*</abbr></label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>1</option>
+<option>2</option>
+<option>3</option>
+                    </select>
+                  </div>
+                  <div class="form-list">
+                    <label class="label">รหัสไปรษณีย์<abbr class="required" title="required">*</abbr></label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <header class="card-header">
+                  <h3 class="topic">ผู้รับผลประโยชน์</h3>
+                  <h4 class="subtopic">*กรุณาระบุชื่อ นามสกุลเป็นภาษาอังกฤษ</h4>
+                </header>
+                <article>
+                  <div class="form-list">
+                    <label class="label">เลือกผู้รับผลประโยชน์</label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>1</option>
+<option>2</option>
+<option>3</option>
+                    </select>
+                  </div>
+                  <div class="form-list">
+                    <label class="label">คำนำหน้า</label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>นาย</option>
+<option>นาง</option>
+<option>นางสาว</option>
+                    </select>
+                  </div>
+                  <div class="form-list">
+                    <label class="label">ชื่อภาษาอังกฤษ<abbr class="required" title="required">*</abbr></label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">นามสกุลภาษาอังกฤษ<abbr class="required" title="required">*</abbr></label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">ความสัมพันธ์</label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>1</option>
+<option>2</option>
+<option>3</option>
+                    </select>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <header class="card-header">
+                  <h3 class="topic">ซื้อเพิ่มผู้ร่วมเดินทาง</h3>
+                  <h4 class="subtopic">(สูงสุด 8 คนต่อการทำรายการ 1 ครั้ง)</h4>
+                </header>
+                <article>
+                  <div class="form-list">
+                    <label class="label">จำนวนผู้ร่วมเดินทาง</label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>1</option>
+<option>2</option>
+<option>3</option>
+                    </select>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <header class="card-header">
+                  <h3 class="topic">ข้อมูลผู้ร่วมเดินทาง 1</h3>
+                  <h4 class="subtopic">*กรุณาระบุชื่อ นามสกุลเป็นภาษาอังกฤษ</h4>
+                </header>
+                <article>
+                  <div class="form-list">
+                    <label class="label">คำนำหน้า</label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>นาย</option>
+<option>นาง</option>
+<option>นางสาว</option>
+                    </select>
+                  </div>
+                  <div class="form-list">
+                    <label class="label">ชื่อภาษาอังกฤษ<abbr class="required" title="required">*</abbr></label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">นามสกุลภาษาอังกฤษ<abbr class="required" title="required">*</abbr></label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
                   <div class="form-list _justify-content-start"><div class="form-check abc-radio abc-radio-primary form-check-inline">
-<input class="form-check-input" type="radio" name="travel-type" id="individual" value="individual" checked>
-<label class="form-check-label" for="individual">เดินทางรายบุคคล</label>
+<input class="form-check-input" type="radio" name="document-type-1" id="id-1" value="id-1">
+<label class="form-check-label" for="id-1">บัตรประจำตัวประชาชน</label>
 </div>
 <div class="form-check abc-radio abc-radio-primary form-check-inline">
-<input class="form-check-input" type="radio" name="travel-type" id="family" value="family">
-<label class="form-check-label" for="family">เดินทางพร้อมครอบครัว</label>
+<input class="form-check-input" type="radio" name="document-type-1" id="passport-1" value="passport-1">
+<label class="form-check-label" for="passport-1">หนังสือเดินทาง</label>
 </div>
                   </div>
                   <div class="form-list">
-                    <label class="label">วันที่ออกจากประเทศไทย<abbr class="required" title="required">*</abbr></label>
+                    <label class="label">วัน เดือน ปี เกิด</label>
                     <input class="field _icon datepicker" type="text" placeholder="เลือก">
                   </div>
                   <div class="form-list">
-                    <label class="label">วันที่เดินทางกลับถึงประเทศไทย<abbr class="required" title="required">*</abbr></label>
-                    <input class="field _icon datepicker" type="text" placeholder="เลือก">
+                    <label class="label">เบอร์โทรศัพท์</label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <header class="card-header">
+                  <h3 class="topic">เลือกที่อยู่ของผู้ร่วมเดินทาง 1</h3>
+                </header>
+                <article>
+                  <div class="form-list">
+                    <label class="label">ที่อยู่ของผู้ร่วมเดินทาง</label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>1</option>
+<option>2</option>
+<option>3</option>
+                    </select>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <header class="card-header">
+                  <h3 class="topic">ที่อยู่ของผู้ร่วมเดินทาง 1</h3>
+                  <h4 class="subtopic">*กรุณาระบุเป็นภาษาอังกฤษเท่านั้น</h4>
+                </header>
+                <article>
+                  <div class="form-list">
+                    <label class="label">บ้านเลขที่<abbr class="required" title="required">*</abbr></label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
                   </div>
                   <div class="form-list">
-                    <div class="form-check abc-checkbox abc-checkbox-primary abc-checkbox-circle _flex-grow-2"><input class="form-check-input" id="checkbox-yearly" type="checkbox">
-<label class="form-check-label" for="checkbox-yearly">เดินทางรายปี <button class="btn-link question" data-toggle="modal" data-target="#modal"></button></label>
-                    </div>
+                    <label class="label">หมู่</label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">หมู่บ้าน</label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">ซอย</label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">ถนน<abbr class="required" title="required">*</abbr></label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                  <div class="form-list">
+                    <label class="label">จังหวัด<abbr class="required" title="required">*</abbr></label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>1</option>
+<option>2</option>
+<option>3</option>
+                    </select>
+                  </div>
+                  <div class="form-list">
+                    <label class="label">ตำบล/แขวง<abbr class="required" title="required">*</abbr></label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>1</option>
+<option>2</option>
+<option>3</option>
+                    </select>
+                  </div>
+                  <div class="form-list">
+                    <label class="label">อำเภอ/เขต<abbr class="required" title="required">*</abbr></label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>1</option>
+<option>2</option>
+<option>3</option>
+                    </select>
+                  </div>
+                  <div class="form-list">
+                    <label class="label">รหัสไปรษณีย์<abbr class="required" title="required">*</abbr></label>
+                    <input class="field" type="text" placeholder="กรอกข้อมูล">
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <header class="card-header">
+                  <h3 class="topic">ผู้รับผลประโยชน์ ของผู้ร่วมเดินทาง 1</h3>
+                  <h4 class="subtopic">*กรุณาระบุชื่อ นามสกุลเป็นภาษาอังกฤษ</h4>
+                </header>
+                <article>
+                  <div class="form-list">
+                    <label class="label">เลือกผู้รับผลประโยชน์</label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>1</option>
+<option>2</option>
+<option>3</option>
+                    </select>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <header class="card-header">
+                  <h3 class="topic">ข้อมูลใบเสร็จ / อื่นๆ</h3>
+                </header>
+                <article>
+                  <div class="form-list delivery">
+                    <label class="label">ที่อยู่ในการจัดส่งใบเสร็จ / กรมธรรม์</label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>1</option>
+<option>2</option>
+<option>3</option>
+                    </select>
+                  </div>
+                  <div class="form-list delivery">
+                    <label class="label">ช่องทางรับกรมธรรม์ประกันภัย</label>
+                    <select class="selectpicker field _icon" title="เลือก"><option>1</option>
+<option>2</option>
+<option>3</option>
+                    </select>
                   </div>
                 </article>
               </div>

@@ -33,3 +33,54 @@
 	}
 }
 
+.package-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.package-item {
+	background-color: palette-color("grey", "lighter");
+	margin: 0 auto 5px;
+	padding: 20px 15px 15px;
+	text-align: center;
+	width: calc(50% - 5px);
+
+	.package-name {
+		background-color: #fff;
+		border-radius: 50px;
+		font-size: 1em;
+		margin-bottom: 10px;
+		padding: 10px 0;
+	}
+
+	.package-desc {
+		font-size: .9em;
+		margin-bottom: 0;
+	}
+
+	.package-price {
+		font-size: 1em;
+		margin-bottom: 0;
+
+		> b {
+			font-size: 1.2em;
+		}
+	}
+
+	hr {
+		background-color: palette-color("grey", "darker");
+	}
+
+	&.is--active {
+		background-color: $primary-color;
+
+		.package-desc, .package-price {
+			color: #fff;
+		}
+
+		hr {
+			background-color: #fff;
+		}
+	}
+}

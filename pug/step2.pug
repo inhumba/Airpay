@@ -35,13 +35,13 @@ block body
 				.container
 					.row.align-items-center
 
-						.col-2
+						.col-1
 							a.btn-back(href="#") Back
 
-						.col-8
+						.col-10
 							h1.title ซื้อประกันภัยการเดินทางต่างประเทศ
 
-						.col-2
+						.col-1
 							a.btn-next(href="#") Next
 
 
@@ -62,32 +62,42 @@ block body
 										h2.topic STEP 2<br>รายละเอียดแผนประกัน
 
 
-					.card._pt-0
+					.card.package-card
 						.container
 							.row
 
 								.col
 
 									article
-										.form-list._justify-content-start
-											<div class="form-check abc-radio abc-radio-primary form-check-inline">
-												<input class="form-check-input" type="radio" name="travel-type" id="individual" value="individual" checked>
-												<label class="form-check-label" for="individual">เดินทางรายบุคคล</label>
-											</div>
-											<div class="form-check abc-radio abc-radio-primary form-check-inline">
-												<input class="form-check-input" type="radio" name="travel-type" id="family" value="family">
-												<label class="form-check-label" for="family">เดินทางพร้อมครอบครัว</label>
-											</div>
-										.form-list
-											label.label วันที่ออกจากประเทศไทย<abbr class="required" title="required">*</abbr>
-											input.field._icon.datepicker(type="text", placeholder="เลือก")
-										.form-list
-											label.label วันที่เดินทางกลับถึงประเทศไทย<abbr class="required" title="required">*</abbr>
-											input.field._icon.datepicker(type="text", placeholder="เลือก")
-										.form-list
-											.form-check.abc-checkbox.abc-checkbox-primary.abc-checkbox-circle._flex-grow-2
-												<input class="form-check-input" id="checkbox-yearly" type="checkbox">
-												<label class="form-check-label" for="checkbox-yearly">เดินทางรายปี <button class="btn-link question" data-toggle="modal" data-target="#modal"></button></label>
+										.package-list
+
+											.package-item.is--active
+												a(href="#")
+													h3.package-name Backpack 1
+													h4.package-desc ความคุ้มครองสูงสุด<br>เดินทางแบบไม่ต้องกังวล
+													hr
+													h6.package-price <b>195</b> บาท
+
+											.package-item
+												a(href="#")
+													h3.package-name Backpack 2
+													h4.package-desc ความคุ้มครองครอบคลุม<br>มั่นใจทุกการเดินทาง
+													hr
+													h6.package-price <b>325</b> บาท
+
+											.package-item
+												a(href="#")
+													h3.package-name Backpack 3
+													h4.package-desc ความคุ้มครองมาตรฐาน<br>ไปที่ไหนก็อุ่นใจ
+													hr
+													h6.package-price <b>638</b> บาท
+
+											.package-item
+												a(href="#")
+													h3.package-name Backpack 4
+													h4.package-desc ความคุ้มครองขั้นต่ำ<br>ประหยัดเบี้ย ยื่นวีซ่าได้
+													hr
+													h6.package-price <b>1,048</b> บาท
 
 
 			//- Secondary Content

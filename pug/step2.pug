@@ -1,0 +1,132 @@
+//-//- Use Master Template Base
+extends master/base.pug
+
+
+//-//- Page Title
+block title
+	title Step 2
+
+
+//-//- Custom Meta
+block custom-meta
+	meta(name="description", content="Step 2")
+
+
+//-//- Custom Style
+block custom-style
+
+
+//-//- Custom Header Script
+block custom-header-script
+
+
+//-//- Body
+block body
+	- var bodyClass= 'step-2'; // body class
+	include master/bodyclass.pug
+
+
+		//-//- Page Wrapper
+		#page.site-wrapper
+ 
+			//-//- Header
+			header#masthead.site-header
+
+				.container
+					.row.align-items-center
+
+						.col-2
+							a.btn-back(href="#") Back
+
+						.col-8
+							h1.title ซื้อประกันภัยการเดินทางต่างประเทศ
+
+						.col-2
+							a.btn-next(href="#") Next
+
+
+			//-//- Main Content
+			#content.site-content
+
+
+				//-//- Primary Content
+				#primary.content-area
+					main#main.site-main
+
+					.card._border-bottom-color
+						.container
+							.row
+
+								.col
+									header.card-header
+										h2.topic STEP 2<br>รายละเอียดแผนประกัน
+
+
+					.card._pt-0
+						.container
+							.row
+
+								.col
+
+									article
+										.form-list._justify-content-start
+											<div class="form-check abc-radio abc-radio-primary form-check-inline">
+												<input class="form-check-input" type="radio" name="travel-type" id="individual" value="individual" checked>
+												<label class="form-check-label" for="individual">เดินทางรายบุคคล</label>
+											</div>
+											<div class="form-check abc-radio abc-radio-primary form-check-inline">
+												<input class="form-check-input" type="radio" name="travel-type" id="family" value="family">
+												<label class="form-check-label" for="family">เดินทางพร้อมครอบครัว</label>
+											</div>
+										.form-list
+											label.label วันที่ออกจากประเทศไทย<abbr class="required" title="required">*</abbr>
+											input.field._icon.datepicker(type="text", placeholder="เลือก")
+										.form-list
+											label.label วันที่เดินทางกลับถึงประเทศไทย<abbr class="required" title="required">*</abbr>
+											input.field._icon.datepicker(type="text", placeholder="เลือก")
+										.form-list
+											.form-check.abc-checkbox.abc-checkbox-primary.abc-checkbox-circle._flex-grow-2
+												<input class="form-check-input" id="checkbox-yearly" type="checkbox">
+												<label class="form-check-label" for="checkbox-yearly">เดินทางรายปี <button class="btn-link question" data-toggle="modal" data-target="#modal"></button></label>
+
+
+			//- Secondary Content
+			#secondary.sidebar-area
+				aside#sidebar.site-sidebar
+
+					.card.page-action
+						.container
+							.row
+
+								.col
+									.action-meta
+										p ราคา
+										p 195 บาท
+
+									a.btn.btn-primary.btn-block(href="#") เลือกแผนนี้
+
+
+
+			//- Modal
+			aside
+				#modal.modal.fade(tabindex="-1", role="dialog", aria-hidden="true")
+					.modal-dialog.modal-dialog-centered(role="document")
+						.modal-content
+							.modal-header
+								h5.modal-title title หัวข้อ
+							.modal-body
+								p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui ab nostrum in fugiat, labore repellat impedit.
+								ol
+									li ข้อความข้อความ ข้อความ ข้อความ ข้อความข้อความ
+									li ข้อความข้อความ ข้อความ ข้อความ ข้อความข้อความ
+									li ข้อความข้อความ ข้อความ ข้อความ ข้อความข้อความ
+								p ข้อความข้อความ ข้อความ ข้อความ ข้อความข้อความ
+							.modal-footer
+								<button type="button" class="btn btn-primary" data-dismiss="modal">ย้อนกลับ</button>
+
+
+		//-//- Main Script
+		block script
+			include script/master-script.js
+
+		</body>

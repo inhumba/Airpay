@@ -21,6 +21,14 @@
 		color: palette-color("grey", "dark");
 		font-size: .8em;
 	}
+
+	&.package-card {
+		border-bottom: none;
+	}
+	&.package-detail {
+		border-top: none;
+		border-bottom-width: 1px;
+	}
 }
 
 .card-header {

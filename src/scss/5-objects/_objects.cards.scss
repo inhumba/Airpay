@@ -24,7 +24,12 @@
 	}
 
 	&.package-card {
+		margin-bottom: 0;
 		padding: 20px 0 15px;
+	}
+
+	&.package-detail {
+		padding: 0;
 	}
 }
 
